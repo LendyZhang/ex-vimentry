@@ -93,7 +93,7 @@ function vimentry#write_default_template()
                 \ "",
                 \ "-- ex-tags Options:",
                 \ s:write_default( "enable_tags", "true", "{ true, false }" ),
-                \ s:write_default( "enable_symbols", "true", "{ true, false }" ),
+                \ s:write_default( "enable_symbols", "false", "{ true, false }" ),
                 \ s:write_default( "enable_inherits", "true", "{ true, false }" ),
                 \ s:write_default( "enable_custom_tags", "false", "{ true, false }" ),
                 \ s:write_default( "custom_tags_file" , "", "" ),
